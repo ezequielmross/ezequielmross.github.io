@@ -1,0 +1,20 @@
+{
+    "name": "Ezequiel Mross CV",
+    "short_name": "Ezequiel Mross",
+    "icons": [
+      {
+        "src": "/static/profile.jpg",
+        "sizes": "192x192",
+        "type": "image/jpg"
+      },
+      {
+        "src": "/static/img/profile.jpg",
+        "sizes": "512x512",
+        "type": "image/jpg"
+      }
+    ],
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#4fc08d",
+    "theme_color": "#4DBA87"
+  }
