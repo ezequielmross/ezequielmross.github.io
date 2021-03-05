@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "tailwind": "tailwindcss build ./static/tailwind.css -o ./dist/tailwind.min.css",
-    "clean": "cleancss -o ./dist/tailwind.min.css ./dist/tailwind.min.css",
+    "tailwind": "tailwindcss build ./static/resumes_styles.css -o ./dist/resume.min.css",
+    "clean": "cleancss -o ./dist/resume.min.css ./dist/resume.min.css",
     "dev": "npm run tailwind && open ./index.html",
     "prod": "NODE_ENV=production npm run tailwind && npm run clean && open ./index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
